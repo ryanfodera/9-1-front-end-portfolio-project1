@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Frontend portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand"><a href="./index.html">NBA Player Stats</a></div>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./stats.html">Stats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container py-4">
+        <h5>Stats Search</h5>
+        <div class="main-row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="startingSeason">Start From</label>
+                    <input type="number" min="1979" max="2022" class="form-control" name="startingSeason" id="startingSeason" value="2021">
+                </div>
+                <div class="form-group">
+                    <label for="endingSeason">Start From</label>
+                    <input type="number" min="1979" max="2022" class="form-control" name="endingSeason" id="endingSeason" value="2022">
+                </div>
+                <button class="btn btn-primary btn-block btn-sm my-2" id="search-btn">Search</button>
+
+            </div>
+            <div class="col-md-9">
+                <div class="row" id="stat-data">
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>Player Data</h5>
+        <div class="main-row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="playerName">Enter player name</label>
+                    <input type="text" class="form-control" name="playerName" id="playerName" aria-describedby="helpId" placeholder="Name">
+                    <small id="helpId" class="form-text text-muted">Enter either the first or last name</small>
+                </div>
+                <div class="form-group">
+                    <label for="statStart">Season</label>
+                    <input type="number" min="1979" max="2022" class="form-control" name="statStart" id="statStart" value="2021">
+                </div>
+                <button class="btn btn-primary btn-block btn-sm my-2" id="player-search-btn">Search</button>
+
+            </div>
+            <div class="col-md-9">
+                <div class="data-row" id="search-data">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./stat.js"></script>
+</body>
+
+</html>

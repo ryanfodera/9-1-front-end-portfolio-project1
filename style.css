@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+#player-data {
+    height: 80vh !important;
+    overflow-y: scroll;
+}
+
+#search-data,
+#stat-data {
+    height: 30vh !important;
+    overflow-y: scroll;
+}
+
+#player-data::-webkit-scrollbar,
+#search-data::-webkit-scrollbar,
+#stat-data::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    padding: 40px;
+}
+
+.card {
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.main-row {
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 10px;
+}
+
+.data-row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5px;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=number] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: 1px solid #696969;
+    border-radius: 8px;
+}
+
+label {
+    color: #777;
+    font-size: 0.8em;
+}
+
+button {
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    background-color: #5caafc;
+    width: 100%;
+    margin-top: 20px;
+}
+
+small {
+    font-size: 10px;
+}
+
+.pv {
+    padding: 10px 0 !important;
+}
