@@ -1,6 +1,6 @@
-# 9-1-front-end-portfolio-project1
-- As a user I want to do a search for all players so that I can see their stats.
-- As a user, I want to be able to click a button to cycle through playes, as every page will have 25 players each on it
-- As a user, I want to be able to search for specific stats so I can see stats such as points, assists, and rebounds.
-- As a user, I want to be able to search for specific players so that I can see their stats.
+NBA Player Stats
+- NBA players are displayed in a list with the conference the team plays in, the name of the team, and the city that team resides in
+- Search Bar availible to use for directly getting to the player desired
+- Seperate Stats page tab in the top right corner
+- Stats page shows data for all players within a specific year range, can also use the player search to get the stats in the year range as well
 - Deployed site - https://63c6bfc3fd85244ff0f01fc5--glowing-granita-29f43e.netlify.app/
