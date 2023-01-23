@@ -4,3 +4,5 @@ NBA Player Stats
 - Seperate Stats page tab in the top right corner.
 - Stats page shows data for all players within a specific year range, can also use the player search to get the stats in the year range as well.
 - Deployed site - https://63c6bfc3fd85244ff0f01fc5--glowing-granita-29f43e.netlify.app/
+- Recording for the interview poriton of te project: https://us06web.zoom.us/rec/share/gTGqDOiQSk9_wF5ihQRpJEvCZro3rPZEw4cnEBk73C5iVt_l2IdyGawf6brzVx4._trsGMC1Ztn-m0Q4?startTime=1674499995000
+Passcode for recording: *H7eq85t
